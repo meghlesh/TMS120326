@@ -9683,10 +9683,10 @@ app.post("/performance/:id/reject", authenticate, async (req, res) => {
     });
   }
 });
-// add cron
-module.exports = { app, autoSendBirthdayEmail, autoSendAnniversaryEmail };
-require("./cron/Birthdaycron");
-require("./cron/Anniversarycron");
+///add cron
+//module.exports = { app, autoSendBirthdayEmail, autoSendAnniversaryEmail };
+//require("./cron/Birthdaycron");
+//require("./cron/Anniversarycron");
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
