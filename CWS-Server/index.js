@@ -92,7 +92,7 @@ app.use("/uploads", express.static("uploads"));
 const allowedOrigins = [
   "https://www.creativewebsolution.info",
   "https://cws-ems-tms.vercel.app",
-  "http://localhost:5173",
+  "app-emsdev-fe-btcaabghdmdae0c9.southindia-01.azurewebsites.net",
 ];
 
 app.use((req, res, next) => {
